@@ -6,7 +6,9 @@ import androidx.activity.viewModels
 import androidx.core.view.isVisible
 import com.example.mvvmapplication.databinding.ActivityMainBinding
 import com.example.mvvmapplication.ui.viewmodel.QuoteViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
